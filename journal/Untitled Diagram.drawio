@@ -1,9 +1,113 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.1">
   <diagram name="Page-1" id="Q-XUcEXUHpTTNsUOq2ev">
-    <mxGraphModel>
+    <mxGraphModel dx="3144" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="simple">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-3" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;&lt;font&gt;Data&amp;nbsp;&lt;br&gt;Collection (Air Pollutant and Meteorological Parameters data&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontColor=default;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=default;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-4" target="HajHgL8S1Oa5FUPzTz6w-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-4" value="Data&amp;nbsp;&lt;br&gt;Pre-processing" style="rounded=0;hachureGap=4;fontFamily=Helvetica;fontColor=default;spacingBottom=-1;whiteSpace=wrap;html=1;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=default;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-5" target="HajHgL8S1Oa5FUPzTz6w-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-5" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;&lt;font&gt;Selection of Forecasting Algorithm&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontColor=default;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-6" target="HajHgL8S1Oa5FUPzTz6w-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-6" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;&lt;font&gt;Implementation of WNN with various input&lt;br&gt;combinations&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontColor=default;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1090" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-7" target="HajHgL8S1Oa5FUPzTz6w-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-7" value="&lt;p style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&amp;lt;br/&amp;gt;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:none;&amp;lt;br/&amp;gt;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;Evaluation of model performance&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontColor=default;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1580" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-9" value="Filling the missing value with&lt;br&gt;appropriate method (seasonal decomposition)" style="fontFamily=Helvetica;rounded=0;hachureGap=4;fontColor=default;spacingBottom=-1;whiteSpace=wrap;html=1;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-11" value="Calculation of missing value percentage" style="fontFamily=Helvetica;rounded=0;hachureGap=4;fontColor=default;spacingBottom=-1;whiteSpace=wrap;html=1;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="60" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-16" value="" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Helvetica;fontColor=default;textDirection=ltr;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="190" as="sourcePoint" />
+            <mxPoint x="680" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-17" target="HajHgL8S1Oa5FUPzTz6w-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-17" value="Splitting the dataset for training and&lt;br&gt;testing" style="fontFamily=Helvetica;rounded=0;hachureGap=4;fontColor=default;spacingBottom=-1;whiteSpace=wrap;html=1;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="260" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-18" value="" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Helvetica;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;textDirection=ltr;" edge="1" parent="1" target="HajHgL8S1Oa5FUPzTz6w-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="190" as="sourcePoint" />
+            <mxPoint x="690" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=default;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-19" target="HajHgL8S1Oa5FUPzTz6w-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-19" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;BPNN&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;MLP&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;RBFNN&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;WNN&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;SVR&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&amp;lt;br/&amp;gt;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:none;&amp;lt;br/&amp;gt;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontColor=default;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-22" value="wnn is selected" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontColor=default;rounded=0;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-29" target="HajHgL8S1Oa5FUPzTz6w-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-29" value="&lt;div style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:.31in;&amp;lt;br/&amp;gt;text-indent:-.31in;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:&amp;lt;br/&amp;gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;&lt;span&gt;§&lt;/span&gt;&lt;/span&gt;&lt;span&gt;One&lt;br&gt;Pollutant&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:.31in;&amp;lt;br/&amp;gt;text-indent:-.31in;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:&amp;lt;br/&amp;gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;&lt;span&gt;§&lt;/span&gt;&lt;/span&gt;&lt;span&gt;One&lt;br&gt;pollutants with all meteorological parameters&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:.31in;&amp;lt;br/&amp;gt;text-indent:-.31in;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:&amp;lt;br/&amp;gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;&lt;span&gt;§&lt;/span&gt;&lt;/span&gt;&lt;span&gt;All&lt;br&gt;pollutants with no meteorological parameters.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:.31in;&amp;lt;br/&amp;gt;text-indent:-.31in;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:&amp;lt;br/&amp;gt;none;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;&lt;span&gt;§&lt;/span&gt;&lt;/span&gt;&lt;span&gt;All&lt;br&gt;pollutants with meteorological parameters.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;fontFamily=Helvetica;fontColor=default;rounded=0;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="950" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-31" target="HajHgL8S1Oa5FUPzTz6w-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-31" value="&lt;font&gt;one pollutant approach was selected&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;rounded=0;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1020" width="420" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-37" value="&lt;p style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&amp;lt;br/&amp;gt;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:none;&amp;lt;br/&amp;gt;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;&lt;font&gt;Forecasting of 2021 to 2024 with and&lt;br&gt;without 2020 data in training&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;hachureGap=4;rounded=0;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-40" value="&lt;p style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&amp;lt;br/&amp;gt;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:none;&amp;lt;br/&amp;gt;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;&lt;font&gt;Month wise and lockdown phase wise&lt;br&gt;forecasting of the year&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-41" value="&lt;p style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&amp;lt;br/&amp;gt;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:none;&amp;lt;br/&amp;gt;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;&lt;font&gt;Statistical analysis of the years&lt;br&gt;2013-2019, 2020, 2021 to 2024&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-46" value="" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Helvetica;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-31" target="HajHgL8S1Oa5FUPzTz6w-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1970" y="1090" as="sourcePoint" />
+            <mxPoint x="2290" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-47" value="" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Helvetica;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;textDirection=ltr;" edge="1" parent="1" source="HajHgL8S1Oa5FUPzTz6w-31" target="HajHgL8S1Oa5FUPzTz6w-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="1180" as="sourcePoint" />
+            <mxPoint x="2260" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-51" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;hachureGap=4;fontFamily=Helvetica;direction=west;textDirection=ltr;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="880" width="50" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-52" value="&lt;p style=&quot;language:en-IN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&amp;lt;br/&amp;gt;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:none;&amp;lt;br/&amp;gt;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span&gt;Inclusion of 2020 Hypothesis&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;rotation=90;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2425" y="1110" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HajHgL8S1Oa5FUPzTz6w-56" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span&gt;Sensitivity and Uncertainty Analysis&lt;/span&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;rounded=0;hachureGap=4;textDirection=ltr;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1570" width="220" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
